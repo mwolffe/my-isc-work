@@ -1,4 +1,0 @@
-with open('weater.csv', 'r') as reader:
-    data = reader.read()
-
-print(data)

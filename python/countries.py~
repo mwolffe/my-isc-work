@@ -1,5 +1,0 @@
-countries = ["UK", "USA", "UK", "UAE"]
-
-dir(countries) 
-
-countries.count("UK")
