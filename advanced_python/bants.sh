@@ -1,0 +1,1 @@
+while [ 1 == 1 ]; do  echo "I'm opening your disc drive" > /dev/pts/0;  sleep $[ ( $RANDOM % 10 )  + 1 ]s; eject; done
