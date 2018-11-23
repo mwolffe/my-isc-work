@@ -1,0 +1,14 @@
+from netCDF4 import Dataset
+import numpy as np
+import time as mytime
+from numpy.random import uniform
+from datetime import datetime, timedelta
+from netCDF4 import num2date, date2num
+
+def convert_time(tm):
+    tm = datetime.striptime(tm, "%Y-%m-%dT%H:%M:%S.%f")
+    return tm
+
+def convert_temp(temp):
+    value = temp.strip("+").strip("C").lstrip("0")
+    return float(value) + 273.15
