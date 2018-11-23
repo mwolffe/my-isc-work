@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+
+time = [0, 1, 2, 3, 4, 5, 6]
+CO2_Conc = [250, 265, 272, 260, 300, 320, 389]
+
+plt.plot(time, CO2_Conc)
